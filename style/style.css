@@ -1,0 +1,14 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+    background: url('https://images.pexels.com/photos/7283618/pexels-photo-7283618.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    color: #231942;
+    text-shadow: #BE95C4 1px 0 10px;
+    text-align: center;
+    padding-top: 4em;
+}
