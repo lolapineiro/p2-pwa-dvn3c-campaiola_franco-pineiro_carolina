@@ -3,12 +3,16 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-main{
-    background: url('https://cdn.pixabay.com/photo/2018/01/18/07/31/bitcoin-3089728_1280.jpg') no-repeat;
-	background-size: cover;
-    background-attachment: fixed;
+
+main {
     color: #231942;
     text-shadow: #BE95C4 1px 0 10px;
     text-align: center;
     padding-top: 4em;
+}
+
+body {
+    background: url("../images/background.jpg");
+	background-size: cover;
+    background-attachment: fixed;
 }
