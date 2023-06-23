@@ -45,7 +45,7 @@ btnObtenerDatos.addEventListener('click', function () {
         nombreElement.textContent = nombre;
         valorMonedaElement.textContent = `Valor actual en USD: $${valorMoneda}`;
         valorMaximoElement.textContent = `Valor máximo: $${valorMaximo}`;
-        valorMinimoElement.textContent = `Valor mínimoc: $${valorMinimo}`;
+        valorMinimoElement.textContent = `Valor mínimo: $${valorMinimo}`;
         cambio24hElement.textContent = `Cambio en las últimas 24 horas: $${cambio24h}`;
         ultimaActualizacionElement.textContent = `Última actualización: ${ultimaActualizacion}`;
  
