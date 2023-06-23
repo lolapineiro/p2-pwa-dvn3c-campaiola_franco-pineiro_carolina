@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="manifest" href="/manifest.json">
     <title>Campaiola / Piñeiro | DWN3CV</title>
 </head>
 
@@ -94,6 +95,19 @@
         </div>
     </main>
     <script src="api.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('Service Worker registrado con éxito:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('Error al registrar el Service Worker:', error);
+                    });
+            });
+        }
+    </script>
 </body>
 
 </html>
